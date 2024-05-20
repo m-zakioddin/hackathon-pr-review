@@ -12,6 +12,10 @@ class Fruit {
     function get_name() {
       return $this->name;
     }
+
+    function demo() {
+        return 'It is demo';
+    }
   }
 
   ?>
