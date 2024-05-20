@@ -15,3 +15,12 @@ for (let i = 1; i <= number1 && i <= number2; i++) {
 
 // display the hcf
 console.log(`HCF of ${number1} and ${number2} is ${hcf}.`);
+
+
+<?php 
+
+class abc() {
+  
+}
+
+?>
