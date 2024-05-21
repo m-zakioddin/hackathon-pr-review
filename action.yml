@@ -24,7 +24,7 @@ inputs:
     description: "Leave comments even if the patch is LGTM"
     default: "true"
   path_filters:
-    required: false
+    required: true
     description: |
       The path filters, e.g., "src/**.py", "!dist/**", each line will be considered as one pattern.
       See also
