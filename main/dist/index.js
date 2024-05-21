@@ -16,11 +16,8 @@ for (let i = 1; i <= number1 && i <= number2; i++) {
 // display the hcf
 console.log(`HCF of ${number1} and ${number2} is ${hcf}.`);
 
-
-<?php 
-
-class abc() {
-  
+// looping from 1 to number1 and number2
+for (let i = 1; i >= 0; i++) {
+  // check if is factor of both integers
+  console.log(" IT IS A DEMO");
 }
-
-?>
