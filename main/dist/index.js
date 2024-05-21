@@ -1,11 +1,29 @@
-function abc() {
-  console.log(" abc function called---------------");
+// program to find the HCF or GCD of two integers
+
+let hcf;
+// take input
+const number1 = 55;
+const number2 = 100;
+
+// looping from 1 to number1 and number2
+for (let i = 1; i <= number1 && i <= number2; i++) {
+  // check if is factor of both integers
+  if (number1 % i == 0 && number2 % i == 0) {
+    hcf = i;
+  }
 }
 
-function test() {
-  console.log(" test function called---------------");
+// display the hcf
+console.log(`HCF of ${number1} and ${number2} is ${hcf}.`);
+
+// looping from 1 to number1 and number2
+for (let i = 1; i >= 0; i++) {
+  // check if is factor of both integers
+  console.log(" IT IS A DEMO");
 }
 
-function demo() {
-  console.log(" demo function called---------------");
+// looping from 1 to number1 and number2
+for (let i = 1; i >= 0; i++) {
+  // check if is factor of both integers
+  console.log(" IT IS A DEMO");
 }
