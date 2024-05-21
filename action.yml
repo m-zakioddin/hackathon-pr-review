@@ -6,9 +6,9 @@ branding:
 author: "CodeRabbit LLC"
 inputs:
   debug:
-    required: false
+    required: true
     description: "Enable debug mode"
-    default: "false"
+    default: "true"
   max_files:
     required: false
     description:
@@ -16,13 +16,13 @@ inputs:
       limit."
     default: "150"
   review_simple_changes:
-    required: false
+    required: true
     description: "Review even when the changes are simple"
-    default: "false"
+    default: "true"
   review_comment_lgtm:
-    required: false
+    required: true
     description: "Leave comments even if the patch is LGTM"
-    default: "false"
+    default: "true"
   path_filters:
     required: false
     description: |
