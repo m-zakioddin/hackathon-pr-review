@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 name: "AI-based PR Reviewer & Summarizer with Chat Capabilities"
 description: "AI-based PR Reviewer & Summarizer with Chat Capabilities"
 branding:
@@ -202,7 +201,7 @@ inputs:
       concerns to improve overall code quality while deliberately 
       disregarding minor issues.
   summarize:
-    required: false
+    required: true
     description: "The prompt for final summarization response"
     default: |
       Provide your final response in markdown with the following content:
@@ -240,5 +239,3 @@ inputs:
 runs:
   using: "node16"
   main: "dist/index.js"
-=======
->>>>>>> Stashed changes
