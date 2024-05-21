@@ -21,3 +21,9 @@ for (let i = 1; i >= 0; i++) {
   // check if is factor of both integers
   console.log(" IT IS A DEMO");
 }
+
+// looping from 1 to number1 and number2
+for (let i = 1; i >= 0; i++) {
+  // check if is factor of both integers
+  console.log(" IT IS A DEMO");
+}

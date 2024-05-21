@@ -201,7 +201,7 @@ inputs:
       concerns to improve overall code quality while deliberately 
       disregarding minor issues.
   summarize:
-    required: false
+    required: true
     description: "The prompt for final summarization response"
     default: |
       Provide your final response in markdown with the following content:
